@@ -14,10 +14,10 @@ In this proposal, we would like to apply image and audio analytics techniques to
 Figure 1: Framework of the Emotion-based Music Recommendation Layer
 
 The main objectives of this project include:
->> Build a deep learning model to identify the emotion from the user's facial expression.
->> Build a deep learning model to detect the emotion from the user’s speech audio.
->> Leverage the facial and audio classification result to infer the real-time emotion of the user, and map the user’s emotion to the pre-labeled music database.
->> Frame the outline of the interactive multiple feedback of the music recommendation system.
+>> 1. Build a deep learning model to identify the emotion from the user's facial expression.
+>> 2. Build a deep learning model to detect the emotion from the user’s speech audio.
+>> 3. Leverage the facial and audio classification result to infer the real-time emotion of the user, and map the user’s emotion to the pre-labeled music database.
+>> 4. Frame the outline of the interactive multiple feedback of the music recommendation system.
 
 ### 3. Facial Expression Recognition
 
