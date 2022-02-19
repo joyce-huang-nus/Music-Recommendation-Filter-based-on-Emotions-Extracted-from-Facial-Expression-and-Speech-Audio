@@ -139,12 +139,20 @@ Despite the core application to embed this layer into various software and hardw
 
 ### References
 [1] L. Mou, J. Li, J. Li, F. Gao, R. Jain and B. Yin, "MemoMusic: A Personalized Music Recommendation Framework Based on Emotion and Memory," 2021 IEEE 4th International Conference on Multimedia Information Processing and Retrieval (MIPR), 2021, pp. 341-347, doi: 10.1109/MIPR51284.2021.00064.
+
 [2] F. Kuo, M. Chiang, M. Shan and S. Lee, "Emotion-based music recommendation by association discovery from film music", Proceedings of the 13th annual ACM international conference on Multimedia. Association for Computing Machinery, pp. 507-510, 2005.
+
 [3] D. Ayata, Y. Yaslan and M. E. Kamasak, "Emotion Based Music Recommendation System Using Wearable Physiological Sensors," in IEEE Transactions on Consumer Electronics, vol. 64, no. 2, pp. 196-203, May 2018, doi: 10.1109/TCE.2018.2844736.
+
 [4] Song, Yading and Simon Dixon. “PREDICT THE EMOTIONAL RESPONSES OF PARTICIPANTS ?” (2015).
+
 [5] F. H. Rachman, R. Samo and C. Fatichah, "Song Emotion Detection Based on Arousal-Valence from Audio and Lyrics Using Rule Based Method," 2019 3rd International Conference on Informatics and Computational Sciences (ICICoS), 2019, pp. 1-5, doi: 10.1109/ICICoS48119.2019.8982519.
+
 [6] J. Kim, S. Lee, S. Kim and W. Y. Yoo, "Music mood classification model based on arousal-valence values," 13th International Conference on Advanced Communication Technology (ICACT2011), 2011, pp. 292-295.
+
 [7] J. Bai et al., "Dimensional music emotion recognition by valence-arousal regression," 2016 IEEE 15th International Conference on Cognitive Informatics & Cognitive Computing (ICCI*CC), 2016, pp. 42-49, doi: 10.1109/ICCI-CC.2016.7862063.
+
 [8] A. Kolli, A. Fasih, F. A. Machot and K. Kyamakya, "Non-intrusive car driver's emotion recognition using thermal camera," Proceedings of the Joint INDS'11 & ISTET'11, 2011, pp. 1-5, doi: 10.1109/INDS.2011.6024802.
+
 [9] Morrison D, Wang R, De Silva L C. Ensemble Methods for Spoken Emotion Recognition in Call - Centers [ J ]. Speech Communication, 2007, 49(2):98-112.
 
