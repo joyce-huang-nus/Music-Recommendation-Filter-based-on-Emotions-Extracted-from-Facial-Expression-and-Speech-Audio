@@ -69,12 +69,15 @@ There are 192 files in each of the emotions in the dataset, except the neutral e
 Audio features such as pitch, intensity, spectral energy distribution, average zero crossing density (ZCD), jitter, and MFCC have been discovered to be useful in emotion recognition. However, using only one audio feature is inefficient to train emotion-recognition models. The trend of audio-features extraction is to combine several complementary audio features. Despite feature selection and engineering, model accuracy rate is also found to be correlated to the number of emotions to be classified. Many models with higher accuracy rates classify only 2-3 emotion classes, indicating a tradeoff between model granularity and accuracy rate. However, to build a more practical and robust emotion recognition model, we intend to classify the emotions into the six universal emotions. We intend to extract the audio features combining 2 paths, the prosodic features and the spectral audio features, and we will then combine the two extraction paths with weighted average.
 
 Table 1. Audio Feature Metrics Description
+
 <img width="609" alt="image" src="https://user-images.githubusercontent.com/88580416/154793750-47172a6a-3bfc-444d-bd57-52990489b127.png">
 
 Mean values for pitch features are shown in Figure 5 and averaged pitch signals for each emotion on the Hamming window are shown in Figure 6. The below graphs displays a great discrimination between the six emotions.
 
 <img width="423" alt="image" src="https://user-images.githubusercontent.com/88580416/154793757-4aba5b11-525c-4129-92af-d6f1d84715c0.png">
 Figure 5. Mean Values for Pitch                   Figure 6. Hamming Window
+
+<img width="608" alt="image" src="https://user-images.githubusercontent.com/88580416/154793829-f89e8171-a5bb-4a56-b679-559c5a3443a4.png">
 
 #### 4.3 Modeling
 During the searching of possible model training methods for audio datasets and emotion recognition, we found some candidate methods for audio emotion recognition as following:
@@ -113,6 +116,7 @@ Have the two networks (if both datasets are trained using Neural Network) separa
 Build a new neural network using the logic and algorithms of the existing two neural networks.
 
 #### 5.3 Emotion matching
+<img width="216" alt="image" src="https://user-images.githubusercontent.com/88580416/154793837-ed33391b-2338-4154-84e0-6ddea1794864.png">
 Figure 7: Valence-Arousal of Emotions
 The ultimate goal of emotion-based music recommendation is to guide the user to a more positive emotional state. However, Mou’s research suggests that recommending a piece of music that has a similar Valence-Arousal value to the user’s self-reported emotional state as the first piece of music that the user listens to. This expression of similar emotion can give the user a feeling of compassion. Especially when a user is experiencing a depressed mood, the attempt to positively influence the user by a piece of music showing compassion may be more effective than directly playing an exciting or joyful one. In the common approach, we can directly match emotions or calculate the similarity of emotions in the Arousal-Valence model.
 
